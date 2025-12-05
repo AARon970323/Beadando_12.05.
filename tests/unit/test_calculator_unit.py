@@ -3,7 +3,7 @@ from calculator.calculator import Calculator
 
 def test_add():
     c = Calculator()
-    assert c.add(1, 2) == 4  #szándákosan rossz
+    assert c.add(1, 2) == 3 
 
 def test_sub():
     c = Calculator()
